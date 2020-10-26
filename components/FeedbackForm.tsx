@@ -13,7 +13,7 @@ function FeedbackForm() {
                 <label>
                     Feedback:
                     <br/>
-                    <textarea name="message" cols="30" rows="10" />
+                    <textarea name="message" /> 
                 </label>
             </p>
             <p>
