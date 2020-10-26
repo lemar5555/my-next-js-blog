@@ -1,5 +1,5 @@
 import { GetStaticPropsContext, InferGetStaticPropsType, GetStaticPaths } from "next";
-import { Article } from "@components/Article";
+import { Article, BlogpostImage } from "@components/Article";
 import type { Post } from "../index";
 
 export default function BlogPost({
@@ -8,6 +8,7 @@ export default function BlogPost({
     return (
         <Article>
             <h1>{post.title}</h1>
+            <BlogpostImage src="/balloons.jpg" alt="balloons"></BlogpostImage>
             <p>{post.body}</p>
         </Article>
     );

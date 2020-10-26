@@ -5,3 +5,9 @@ export const Article = styled.article`
     margin: 0 auto;
     max-width: 500px;
 `;
+
+export const BlogpostImage = styled.img`
+    width: 25%;
+    height: auto;
+    margin: 20px 0;
+`;
