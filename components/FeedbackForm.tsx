@@ -1,6 +1,6 @@
 function FeedbackForm() {
     return (
-        <form name="feedback" method="post" data-netlify="true">
+        <form name="feedback" method="post" data-netlify="true" action="/thankyou">
             <input type="hidden" name="form-name" value="feedback" />
             <p>
                 <label>
